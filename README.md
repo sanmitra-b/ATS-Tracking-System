@@ -1,17 +1,12 @@
 ##  Project Title
 
 **ATS-Tracking-System**
-A Streamlit-based Applicant Tracking System (ATS) for resume analysis and job description matching
-
-
-
-##  Project Description (for README & portfolio)
 
 An intelligent **Applicant Tracking System (ATS)** built with Python and Streamlit that helps job seekers and recruiters evaluate resumes against target job descriptions. The application leverages advanced NLP techniques to extract relevant information from uploaded PDFs, analyze how well a resume aligns with the job requirements, and present a match score plus actionable insights.
 
-This tool streamlines what is traditionally a manual screening process by highlighting strengths, gaps, and keyword alignment, helping users optimize resumes for real-world ATS standards and increasing the likelihood of progressing in the hiring process. ([GeeksforGeeks][1])
+##  Why This Matters
 
----
+An ATS is core to modern hiring workflows — it ingests resumes, structures candidate information, filters applicants, and ranks them based on job criteria. This project simulates that process with added analytics feedback meant to help users **optimize their resumes for real screening tools**, helping users optimize resumes for real-world ATS standards and increasing the likelihood of progressing in the hiring process.
 
 ##  Key Features
 
@@ -21,34 +16,31 @@ This tool streamlines what is traditionally a manual screening process by highli
 * **Insight Generation** – highlights missing keywords and text segments that could improve score
 * **Streamlit UI** – intuitive web interface for non-technical users
 
-> We will add optional features like ML-based semantic similarity scoring, visualization of matches, or dashboarding later.
-
----
-
-##  Why This Matters
-
-An ATS is core to modern hiring workflows — it ingests resumes, structures candidate information, filters applicants, and ranks them based on job criteria. This project simulates that process with added analytic feedback meant to help users **optimize their resumes for real screening tools**.
-
----
+We plan to add additional features like ML-based semantic similarity scoring, visualization of matches, or dashboarding soon.
 
 ##  Live Demo
 
 The application is deployed online and available at:
 ➡️ **[https://ats-tracking-system-project.streamlit.app](https://ats-tracking-system-project.streamlit.app)**
 
-(If login/authentication error appears, please check deployment settings — ideally provide a direct public link.)
+## Screenshots
 
----
+<p align="center">
+  <img src="assets/image1.png" width="600" alt="JD Page Screenshot" />
+</p>
 
-##  Tech Stack
+<p align="center">
+  <img src="assets/image2.png" width="600" alt="Results Page Screenshot" />
+</p>
 
-* **Python** – core logic
-* **Streamlit** – web interface
-* **pdf2image / PyPDF2** – PDF text extraction
-* **dotenv** – environment variable management
-* **AI/NLP utilities** – match scoring & text processing
+##  Usage
 
----
+1. Navigate to the local or deployed app URL
+2. Upload one or more resume PDFs
+3. Enter or paste a job description
+4. View the match score and insights recommendations
+5. Use the results to tailor your resume for better ATS compliance
+
 
 ##  Installation (Local Setup)
 
@@ -84,7 +76,7 @@ The application is deployed online and available at:
    streamlit run app.py
    ```
 
----
+
 
 ##  Repository Structure
 
@@ -97,20 +89,14 @@ ATS-Tracking-System/
 └── .env (ignored)
 ```
 
----
 
-##  Usage
+##  Tech Stack
 
-1. Navigate to the local or deployed app URL
-2. Upload one or more resume PDFs
-3. Enter or paste a job description
-4. View the match score and insights recommendations
-5. Use the results to tailor your resume for better ATS compliance
-
-## Application Preview
+* **Python** – core logic
+* **Streamlit** – web interface
+* **pdf2image / PyPDF2** – PDF text extraction
+* **dotenv** – environment variable management
+* **AI/NLP utilities** – match scoring & text processing
 
 
-![Preview](assets/image1.png)
-
-![Result](assets/image2.png)
 

@@ -2,7 +2,7 @@
 
 **ATS-Tracking-System**
 
-An intelligent **Applicant Tracking System (ATS)** built with Python and Streamlit that helps job seekers and recruiters evaluate resumes against target job descriptions. The application leverages advanced NLP techniques to extract relevant information from uploaded PDFs, analyze how well a resume aligns with the job requirements, and present a match score plus actionable insights.
+An intelligent **Applicant Tracking System (ATS)** built with Python and Streamlit that helps job seekers and recruiters evaluate resumes against target job descriptions. The application leverages advanced NLP techniques to extract relevant information from uploaded PDF and Docx files, analyze how well a resume aligns with the job requirements, and present a match score plus actionable insights.
 
 ##  Why This Matters
 
@@ -10,7 +10,7 @@ An ATS is core to modern hiring workflows — it ingests resumes, structures can
 
 ##  Key Features
 
-* **Resume Upload and Parsing** – accepts PDF resumes and extracts text for analysis
+* **Resume Upload and Parsing** – accepts PDF and DOCX resumes and extracts text for analysis
 * **Job Description Matching** – compares resume content to a provided job description
 * **Match Scoring** – computes a relevance score to indicate alignment with the job role
 * **Insight Generation** – highlights missing keywords and text segments that could improve score
@@ -36,7 +36,7 @@ The application is deployed online and available at:
 ##  Usage
 
 1. Navigate to the local or deployed app URL
-2. Upload one or more resume PDFs
+2. Upload your resume
 3. Enter or paste a job description
 4. View the match score and insights recommendations
 5. Use the results to tailor your resume for better ATS compliance

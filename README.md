@@ -84,9 +84,7 @@ The application is deployed online and available at:
 ATS-Tracking-System/
 ├── app.py
 ├── requirements.txt
-├── .gitignore
-├── README.md
-└── .env (ignored)
+└── .env
 ```
 
 
